@@ -39,7 +39,14 @@ function Hero() {
      */
     this.getIsCounterFor = function() {
         return [];
-    }
+    };
+
+
+
+    this.courrir = function() {
+        console.log(this.name + ' cours et a ' + Object.keys(this.abilities).length + ' abilités');
+    };
+
 
 
 };

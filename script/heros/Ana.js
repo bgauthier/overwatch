@@ -1,8 +1,13 @@
+/**
+ *
+ * @constructor
+ */
 function Ana () {
 
     this.name = 'Ana';
     this.type = Overwatch.CATEGORY_SUPPORT;
     this.icon = '/resources/players/ana.png';
+
 
     /**
      * Weapons
@@ -54,6 +59,13 @@ function Ana () {
     this.ultimates['Nano Boost'].duration = 8; // Seconds
     this.ultimates['Nano Boost'].chargeRequired = 1875; // points
 
+    /**
+     * Return array of player names this player is a good conter for
+     * @returns {Array}
+     */
+    this.getIsCounterFor = function() {
+      return [];
+    };
 
 };
 
