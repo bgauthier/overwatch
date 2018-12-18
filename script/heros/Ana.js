@@ -6,7 +6,7 @@ function Ana () {
 
     this.name = 'Ana';
     this.type = Overwatch.CATEGORY_SUPPORT;
-    this.icon = '/resources/players/ana.png';
+    this.icon = './resources/players/ana.png';
 
 
     /**

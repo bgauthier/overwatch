@@ -43,9 +43,6 @@ function Hero() {
 
 
 
-    this.courrir = function() {
-        console.log(this.name + ' cours et a ' + Object.keys(this.abilities).length + ' abilités');
-    };
 
 
 

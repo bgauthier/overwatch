@@ -10,3 +10,17 @@ body, html {
     background-size: cover;
     color: #fff;
 }
+
+table {
+    background-color:#000;
+}
+
+td {
+    color:#fff;
+    background-color:#000;
+}
+
+tr.active td {
+    background-color: #fafdd2;
+    color:#000;
+}
